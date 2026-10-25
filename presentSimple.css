@@ -1,0 +1,143 @@
+*{
+    margin:0;
+}
+:root {
+  --forBG-color: rgba(15, 45, 62, 0.061);
+  --mainBorder-color: oklch(85.106% 0.06879 226.545);
+  --mainBorder_2-color: rgba(0, 0, 0, 0.16);
+}
+
+body{
+  background-color: var(--forBG-color)   
+}
+main{   
+  
+    padding:40px;
+    width: 60%;
+    background-color:white;
+    margin:0 auto;
+    margin-top: 100px;
+    border: 1px solid var(--mainBorder_2-color);
+    border-radius: 5px; 
+}
+/*FIRST SECTION--------------------------------------------------------------------*/
+.explanation_text{
+  font-size:1.7rem; 
+  margin:20px 0;
+}
+p{
+   font-size:1.7rem; 
+}
+h1{
+  margin-bottom: 40px;;
+  text-align: center;  
+  font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+#remark{
+    font-size:20px;
+    font-weight: bold;
+}
+.examples li{
+  font-size:1.7rem;
+  font-weight: bold; 
+}
+ul{
+    margin: 30px 0;
+}
+span{
+    text-decoration: underline;
+}
+#controls button{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top:50px;
+    padding: 0;
+    width: 170px;
+    height:65px;
+    font-size: 1.3rem;  
+    border-radius: 5px;  
+}
+#controls{
+    display:flex;
+    justify-content: end;
+}
+#result,#result2{
+font-size: 1.7rem;
+margin:40px 40px;
+}
+.questionSectionFirst{
+    display:flex;
+    justify-content: space-around;
+    /*border: 1px solid red;*/
+    margin-bottom: 20px;
+}
+.leftDiv,.rightDiv{
+   /* border: 1px solid black;*/
+    width:45%;   
+}
+
+.rightDiv button {
+ font-size: 1.4rem;
+    margin:0 10px;
+    height: 35px;
+    border-radius:5px;
+}
+.rightDiv{
+    display: flex;
+    align-items: center;
+}
+
+/* styles for second test of first section*/
+section ul li {
+font-size:1.7rem;
+margin-bottom: 10px;
+list-style-type: none;
+}
+
+.colored{
+    color:red;
+}
+
+
+
+
+
+.controls button{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top:50px;
+    padding: 0;
+    width: 170px;
+    height:65px;
+    font-size: 1.3rem;  
+    border-radius: 5px;  
+}
+.controls{
+    position: relative;
+    display:flex;
+    justify-content: end;
+}
+.resControls{
+    padding: 10px;
+    margin-top: 50px;
+    font-size:1.7rem; 
+    height:70px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.asterisk{
+    position:absolute;
+    color:green;
+    width:20px;
+    heigh:20px;
+    font-size: 3rem;
+    right:20px;
+    bottom: 145px;
+}
