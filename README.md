@@ -6,5 +6,5 @@ This is a small page where you can train basic tences. The best thing is that yo
 this app to any other tences by changing only data in  presentSimple.js  and presentSimple.html files. Initially, this app set to work with present simple. But you can change it easily. Logic stays the same.
 
 ## How to use.
-Just clone it to your local folder.With the next command from Git CLI: gh repo clone Vladislav0055/<repo name>.<repo name> replace with the name of this repository. Since i didn't create the repository yet I don't know the name.
+Just clone it to your local folder.With the next command from Git CLI: gh repo clone Vladislav0055/<repo "name">.<repo "name"> replace with the name of this repository. Since i didn't create the repository yet I don't know the name.
 Open html file in browser and enjoy learning.
